@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>HymnalWsf</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link rel="stylesheet" media="all" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" media="all" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" media="all" href="/css/hymnal-custom.css">
+  <link rel="stylesheet" media="all" href="/css/bootstrap-table.min.css"> 
+  <link rel="stylesheet" media="all" href="/css/theme.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Wonderful Grace of Jesus</h1>
+    <h2>24A</h2>
+  </header> 
+
+  <article class="post-content">
+    <p>Wonderful grace of Jesus,<br />
+Greater than all my sin;<br />
+How shall my tongue describe it,<br />
+Where shall its praise begin?<br />
+Taking away my burden,<br />
+Setting my spirit free;<br />
+For the wonderful grace of Jesus reaches me.</p>
+
+<p>Refrain:<br />
+Wonderful the matchless grace of Jesus,<br />
+Deeper than the mighty rolling sea;<br />
+Higher than the mountains, sparkling like a fountain,<br />
+All sufficient grace for me.<br />
+Broader than the scope of my transgressions,<br />
+Greater far than all my sin and shame.<br />
+O magnify the precious Name of Jesus,<br />
+Praise His Name!</p>
+
+  </article>
+
+</div>
+
+
+  </div>
+
+    <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+  <script type="text/javascript">
+      $(document).ready(ajustamodal);
+      $(window).resize(ajustamodal);
+
+      function ajustamodal() {
+          var altura = $(window).height() - 155; //value corresponding to the modal heading + footer
+          $(".ativa-scroll").css({"height": altura, "overflow-y": "auto"});
+      }
+
+      $("#myModal").on("show", function () {
+          $("body").addClass("modal-open");
+      }).on("hidden", function () {
+          $("body").removeClass("modal-open")
+      });
+
+  </script>
+
+
+</body>
+</html>

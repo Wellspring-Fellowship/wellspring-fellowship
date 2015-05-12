@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>HymnalWsf</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link rel="stylesheet" media="all" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" media="all" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" media="all" href="/css/hymnal-custom.css">
+  <link rel="stylesheet" media="all" href="/css/bootstrap-table.min.css"> 
+  <link rel="stylesheet" media="all" href="/css/theme.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Stand Up, Stand Up for Jesus</h1>
+    <h2>10</h2>
+  </header> 
+
+  <article class="post-content">
+    <p>Stand up, stand up for Jesus! ye soldiers of the cross;<br />
+Lift high His royal banner, it must not suffer loss:<br />
+From vict’ry unto vict’ry, His army shall He lead,<br />
+Till every foe is vanquished, and Christ is Lord indeed.</p>
+
+<p>Stand up, stand up for Jesus! The trumpet call obey:<br />
+Forth to the mighty conflict, in this His glorious day;<br />
+Ye that are men now serve Him against unnumbered foes;<br />
+Let courage rise with danger, and strength to strength oppose.</p>
+
+<p>Stand up, stand up for Jesus! Stand in His strength alone,<br />
+The arm of flesh will fail you, ye dare not trust your own;<br />
+Put on the gospel armor, and watching unto prayer,<br />
+Where duty calls or danger, be never wanting there.</p>
+
+<p>Stand up, stand up for Jesus! the strife will not be long;<br />
+This day the noise of battle, the next the victor’s song;<br />
+To him that overcometh a crown of life shall be;<br />
+He with the King of glory shall reign eternally.</p>
+
+  </article>
+
+</div>
+
+
+  </div>
+
+    <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+  <script type="text/javascript">
+      $(document).ready(ajustamodal);
+      $(window).resize(ajustamodal);
+
+      function ajustamodal() {
+          var altura = $(window).height() - 155; //value corresponding to the modal heading + footer
+          $(".ativa-scroll").css({"height": altura, "overflow-y": "auto"});
+      }
+
+      $("#myModal").on("show", function () {
+          $("body").addClass("modal-open");
+      }).on("hidden", function () {
+          $("body").removeClass("modal-open")
+      });
+
+  </script>
+
+
+</body>
+</html>
