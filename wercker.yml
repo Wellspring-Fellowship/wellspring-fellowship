@@ -3,13 +3,13 @@ build:
   steps:
     - script:
       name: Jekyll Build
-      command: jekyll build
+      code: jekyll build
 deploy:
   steps:
-    - script:
-      name: Grab SSH key
-      command: echo $WECKER_PRIVATE > ~/.ssh/id_rsa
+    # - script:
+    #   name: create a deploy.yml for Octopress
+    #   code: echo $OCTOPRESS_DEPLOY_YML > /pipeline/source/_deploy.yml && echo $OCTOPRESS_DEPLOY_YML
 
     - script:
       name: Octopress Deploy
-      command: octopress deploy -t
+      code: jekyll build && octopress deploy
