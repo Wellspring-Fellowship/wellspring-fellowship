@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>HymnalWsf</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link rel="stylesheet" media="all" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" media="all" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" media="all" href="/css/hymnal-custom.css">
+  <link rel="stylesheet" media="all" href="/css/bootstrap-table.min.css"> 
+  <link rel="stylesheet" media="all" href="/css/theme.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Sweet by and by</h1>
+    <h2>68</h2>
+  </header> 
+
+  <article class="post-content">
+    <p>There’s a land that is fairer than day,
+And by faith we can see it afar;
+For the Father waits over the way
+To prepare us a dwelling place there.</p>
+
+<p>Refrain:
+In the sweet by and by,
+We shall meet on that beautiful shore;
+In the sweet by and by,
+We shall meet on that beautiful shore.</p>
+
+<p>We shall sing on that beautiful shore
+The melodious songs of the blessed;
+And our spirits shall sorrow no more,
+Not a sigh for the blessing of rest.</p>
+
+<p>Refrain:
+In the sweet by and by,
+We shall meet on that beautiful shore;
+In the sweet by and by,
+We shall meet on that beautiful shore.</p>
+
+<p>To our bountiful Father above,
+We will offer our tribute of praise
+For the glorious gift of His love
+And the blessings that hallow our days.</p>
+
+<p>Refrain:
+In the sweet by and by,
+We shall meet on that beautiful shore;
+In the sweet by and by,
+We shall meet on that beautiful shore.</p>
+
+  </article>
+
+</div>
+
+
+  </div>
+
+    <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+  <script type="text/javascript">
+      $(document).ready(ajustamodal);
+      $(window).resize(ajustamodal);
+
+      function ajustamodal() {
+          var altura = $(window).height() - 155; //value corresponding to the modal heading + footer
+          $(".ativa-scroll").css({"height": altura, "overflow-y": "auto"});
+      }
+
+      $("#myModal").on("show", function () {
+          $("body").addClass("modal-open");
+      }).on("hidden", function () {
+          $("body").removeClass("modal-open")
+      });
+
+  </script>
+
+
+</body>
+</html>

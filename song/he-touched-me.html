@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>HymnalWsf</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link rel="stylesheet" media="all" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" media="all" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" media="all" href="/css/hymnal-custom.css">
+  <link rel="stylesheet" media="all" href="/css/bootstrap-table.min.css"> 
+  <link rel="stylesheet" media="all" href="/css/theme.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">He Touched Me</h1>
+    <h2>22A</h2>
+  </header> 
+
+  <article class="post-content">
+    <p>Shackled by a heavy burden,
+Beneath a load of guilt and shame.
+Then the hand of Jesus touched me,
+And now I am no longer the same.</p>
+
+<p>He touched me, Oh He touched me,
+And oh the joy that floods my soul!
+Something happened and now I know,
+He touched me and made me whole.</p>
+
+<p>Since I met this blessed Savior,
+Since He cleansed and made me whole,
+I will never cease to praise Him,
+I’ll shout it while eternity rolls.</p>
+
+<p>He touched me, Oh He touched me,
+And oh the joy that floods my soul!
+Something happened and now I know
+He touched me and made me whole.</p>
+
+  </article>
+
+</div>
+
+
+  </div>
+
+    <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+  <script type="text/javascript">
+      $(document).ready(ajustamodal);
+      $(window).resize(ajustamodal);
+
+      function ajustamodal() {
+          var altura = $(window).height() - 155; //value corresponding to the modal heading + footer
+          $(".ativa-scroll").css({"height": altura, "overflow-y": "auto"});
+      }
+
+      $("#myModal").on("show", function () {
+          $("body").addClass("modal-open");
+      }).on("hidden", function () {
+          $("body").removeClass("modal-open")
+      });
+
+  </script>
+
+
+</body>
+</html>
